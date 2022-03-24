@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#leftDiv {
+    flex: 0.3;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+#rightDiv {
+    flex: 1;
+    height: 100%;
+    width: 10%;
+}
+
+#heading {
+    color: white;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    padding: 15px;
+}
+
+#allTodos{
+    padding: 15px;
+}
+#subheading {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+#input {
+    border: none;
+    font-size: large;
+}
+
+.todoContainer {
+    display: flex;
+}
+
+#readButton {
+    margin: 2px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+#deleteButton{
+    margin: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+#editButton {
+    margin: 2px;
+    padding-left: 2px;
+    color: white;
+    cursor: pointer;
+}
+#deleteButton :hover {
+    color: red;
+} 
+
+#buttons {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
